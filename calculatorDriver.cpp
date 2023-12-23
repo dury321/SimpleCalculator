@@ -1,27 +1,33 @@
-#include <iostream>
-#include <iomanip>
+// --------------------------------------------------------------------------------------------------------------------
+//Programmer's Name:  Christian Dury
+//Program:  SimpleCalculator
+//Program Flow (IPO): 
+//  Inputs:		
+//	Outputs:	
+//	Process:	
+// --------------------------------------------------------------------------------------------------------------------
 
-#include <string>
-#include <math.h>
+#include "Standards.h"
+#include "printType.h"
 
 
-using namespace std;
 
 int main(void)
 {
+	//set precision to the output screen to 5 decimal places
+	cout << fixed << setprecision(5);
+
+	//create print object
+	printType print;
+
+	//print the program header to the screen
+	print.PrintProgramHeader((ofstream&)cout);
 
 
-	cout << "hello world";
 
 
 
-	cout << "hello world";
-
-
-	cout << endl << endl;
-
-
-	cout << endl;
+	
 
 	return 0;
 }
