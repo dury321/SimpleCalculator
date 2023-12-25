@@ -9,6 +9,7 @@
 
 #include "Standards.h"
 #include "printType.h"
+#include "userInputTyper.h"
 
 
 
@@ -20,12 +21,16 @@ int main(void)
 	//create print object
 	printType print;
 
+	//create user input object
+	userInputType userSelection;
+
 	//print the program header to the screen
 	print.PrintProgramHeader((ofstream&)cout);
 
+	//get the user's selection for the program
+	userSelection.UserProgramSelection((ifstream&)cin);
 
-
-
+	
 
 	
 

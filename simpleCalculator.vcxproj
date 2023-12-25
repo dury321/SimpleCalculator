@@ -141,10 +141,12 @@
   <ItemGroup>
     <ClCompile Include="calculatorDriver.cpp" />
     <ClCompile Include="printType.cpp" />
+    <ClCompile Include="userInputType.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="printType.h" />
     <ClInclude Include="Standards.h" />
+    <ClInclude Include="userInputTyper.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -21,6 +21,9 @@
     <ClCompile Include="printType.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="userInputType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="printType.h">
@@ -28,6 +31,9 @@
     </ClInclude>
     <ClInclude Include="Standards.h">
       <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="userInputTyper.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
